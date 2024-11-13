@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="in-style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="in-container">
+      <a href="#index.html" id="back"> < Back </a>
+      <div class="sign-in-box">
+        <h2>LOGIN</h2>
+        <form action="">
+          <div class="login-data">
+            <input type="email" name="email" placeholder="" required />
+            <label for="email">email</label>
+            <i class="ri-mail-line"></i>
+          </div>
+          <div class="login-data">
+            <input type="password" name="pass" placeholder="" required />
+            <label for="pass">password</label>
+            <i class="ri-lock-fill"></i>
+          </div>
+          <div class="help">
+            <p>
+              <input type="checkbox" id="cb" /><label for="cb"
+                >remember me</label
+              >
+            </p>
+            <a href="">forget password?</a>
+          </div>
+          <div class="login-btn">
+            <input
+              type="button"
+              value="Sign in"
+              id="sign-in-btn"
+              src="page1.html"
+            />
+
+            <p id="create-account">
+              Don't have an account? <a href="sign-up.html">Sign Up</a>
+            </p>
+          </div>
+          <div class="other-opt">
+            <p>---- login with ----</p>
+            <div id="other-opt-site">
+              <i class="ri-google-fill"></i
+              ><i class="ri-facebook-circle-fill"></i
+              ><i class="ri-linkedin-box-fill"></i
+              ><i class="ri-github-fill"></i>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
